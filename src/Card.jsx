@@ -58,6 +58,10 @@ const Card = function () {
                   setIsEscaping(true);
                   moveButton();
                 }}
+                onTouchStart={() => {
+                  setIsEscaping(true);
+                  moveButton();
+                }}
               >
                 No 💔
               </button>
